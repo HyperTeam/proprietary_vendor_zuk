@@ -207,7 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/z2_plus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/z2_plus/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/zuk/z2_plus/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zuk/z2_plus/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/zuk/z2_plus/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/zuk/z2_plus/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
@@ -266,6 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/zuk/z2_plus/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/zuk/z2_plus/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/zuk/z2_plus/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/zuk/z2_plus/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/zuk/z2_plus/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/zuk/z2_plus/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
