@@ -202,8 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/zuk/z2_plus/proprietary/bin/iop:system/bin/iop \
     vendor/zuk/z2_plus/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/zuk/z2_plus/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/zuk/z2_plus/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/zuk/z2_plus/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/z2_plus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/z2_plus/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -260,6 +258,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/zuk/z2_plus/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/zuk/z2_plus/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/zuk/z2_plus/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/zuk/z2_plus/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/zuk/z2_plus/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zuk/z2_plus/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zuk/z2_plus/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
@@ -332,7 +332,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
