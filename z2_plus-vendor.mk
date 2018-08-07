@@ -202,7 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/zuk/z2_plus/proprietary/bin/iop:system/bin/iop \
     vendor/zuk/z2_plus/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/zuk/z2_plus/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/z2_plus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/z2_plus/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zuk/z2_plus/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
@@ -260,7 +259,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zuk/z2_plus/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/zuk/z2_plus/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
-    vendor/zuk/z2_plus/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/zuk/z2_plus/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/zuk/z2_plus/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zuk/z2_plus/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/zuk/z2_plus/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
@@ -303,7 +302,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -391,18 +389,13 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/lib-uceservice.so:system/vendor/lib64/lib-uceservice.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -455,7 +448,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
@@ -479,8 +471,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
