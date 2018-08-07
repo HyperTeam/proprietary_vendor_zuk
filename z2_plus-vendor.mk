@@ -207,12 +207,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/zuk/z2_plus/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/zuk/z2_plus/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/zuk/z2_plus/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/zuk/z2_plus/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/zuk/z2_plus/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/zuk/z2_plus/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/zuk/z2_plus/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
@@ -229,7 +227,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/zuk/z2_plus/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/zuk/z2_plus/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/zuk/z2_plus/proprietary/vendor/app/TimeService/TimeService.apk:system/vendor/app/TimeService/TimeService.apk \
     vendor/zuk/z2_plus/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/zuk/z2_plus/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/zuk/z2_plus/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
@@ -248,7 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/zuk/z2_plus/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/zuk/z2_plus/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
-    vendor/zuk/z2_plus/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/zuk/z2_plus/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/zuk/z2_plus/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/zuk/z2_plus/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
@@ -408,7 +404,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -428,7 +424,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libdpmqmihal.so:system/vendor/lib64/libdpmqmihal.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
@@ -535,4 +530,4 @@ PRODUCT_PACKAGES += \
     uceShimService \
     CNEService \
     qcrilmsgtunnel \
-    colorservice
+    TimeService
