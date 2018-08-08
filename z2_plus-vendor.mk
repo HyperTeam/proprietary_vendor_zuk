@@ -525,7 +525,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     datastatusnotification \
     ims \
-    uceShimService \
     CNEService \
     qcrilmsgtunnel \
     TimeService
